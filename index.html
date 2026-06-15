@@ -2,21 +2,26 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Math Club | FREE QUIZ AND LESSONS</title>
+  <title>Learninghub | Quizes and more!</title>
 </head>
 
 <body style="background:#111;color:white;font-family:Arial;padding:30px;">
 
-  <h1>team fattys client launcher</h1>
+  <h1>Team Fattys Client Launcher</h1>
 
-  <select id="clientSelect"></select>
+  <p>Select a client:</p>
 
-  <button onclick="launchClient()">Launch</button>
+  <select id="clientSelect">
+    <option value="">Loading clients...</option>
+  </select>
+
+  <button onclick="launchClient()">Launch!</button>
 
   <br><br>
 
   <button onclick="launchEagler()">Launch Eagler Forge</button>
 
   <script src="script.js"></script>
+
 </body>
 </html>
